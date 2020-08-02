@@ -3,15 +3,48 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Document</title>
+	<title>SmartLEDs</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 	<div id="particles-js"></div>
 
-	<div id="page-wrapped">
-		Добро пожаловать!
+	<div id="page-wrapped" class="drdr">
+		<h1>Добро пожаловать!</h1>
+		<hr>
+		<br>
+		
+		<h3 class="navigation">Некотороые из возможностей светодиодной ленты:</h3>
+		<li class="navigation">Подсветка с огромным количеством оттенков, которые можно установить по собственному желанию</li>
+		<li class="navigation">Управление цветом ленты с помощью телефона через bluetooth</li>
+		<li class="navigation">Цветомузыка с множеством эффектов для создания как уюта, так и крутой дискотеки</li>
+		<li class="navigation">Гирлянда с большим количеством завораживающих анимаций </li>
+        <br>
+		<h3 class="navigation">Где и как можно применить:</h3>
+		<li class="navigation">Кухонный свет, ночник, новогоднее украшение для ёлки и дома, ночная подсветка на окно и в коридор, и т. д.</li>
+		<p class="navigation"><strong><em>Пожелания:</em></strong> а вообще все зависит от вашей фантазии. Если у вас появилась или появится какая-то задумка, связанная со светодиодной лентой, то свяжитесь со мной и попробуем воплотить ее.</p>
+		<br>
+		<div id="slider"><img src=""></div>
+		<script>
+			var images = ['f11.jpg', 'f22.jpg', 'f33.jpg', 'f44.jpg', 'f55.jpg'];
+			var slider = document.querySelector('#slider');
+			var img = slider.querySelector('img');
+			var i = 0;
+			window.setInterval(function() {
+				img.src = 'images/' + images[i];
+				i++;
+				if (i == images.length) {
+					i = 0;
+				}
+			}, 1000);
+		</script>
+		<br>
+		<a href="k11.jpg" class="items"><img src="k11.jpg" alt=""></a>
+		<a href="k22.jpg" class="items"><img src="k22.jpg" alt=""></a>
+		<a href="k33.jpg" class="items"><img src="k33.jpg" alt=""></a>
+	    
+	
 	</div>
 
 	<script src="particles.min.js"></script>

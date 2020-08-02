@@ -24,3 +24,22 @@
 	border-right: 1px solid #333;
 	text-align: center;
 }
+.navigation {
+	text-align: left;
+}
+.drdr .items {
+	display: inline-block;
+}
+.drdr a {
+	display: inline-block;
+	width: 200px;
+} 
+.drdr img {
+	max-width: 100%;
+}
+#slider {
+	text-align: center;
+	margin-left: auto;	
+	margin-right: auto;
+	width: 12em;
+}
