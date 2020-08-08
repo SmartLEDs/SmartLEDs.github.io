@@ -2,23 +2,53 @@ $(document).ready(function(){
 	$('.slider').slick({
 		arrows:true,
 		dots:true,
-		slidesToShow:3,
+		slidesToShow:4,
 		autoplay:true,
 		speed:1000,
 		autoplaySpeed:800,
+		centerMode: true,
+		centerPadding: '0px',
 		responsive:[
 			{
-				breakpoint: 768,
+				breakpoint: 2500,
 				settings: {
-					slidesToShow:2
+					slidesToShow:3,
+					arrows: true,
+					centerMode: true,
 				}
 			},
 			{
-				breakpoint: 550,
+				breakpoint: 1353,
 				settings: {
-					slidesToShow:1
+					slidesToShow:2,
+					arrows: true,
+					centerMode: true,
 				}
-			}
+			},
+			{
+				breakpoint: 875,
+				settings: {
+					slidesToShow:1,
+					arrows: true,
+					centerMode: true,
+				}
+			},
+			{
+				breakpoint: 611,
+				settings: {
+					slidesToShow:1,
+					arrows: true,
+					centerMode: true,
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow:2,
+					arrows: true,
+					centerMode: true,
+				}
+			},
 		]
 	});
 });

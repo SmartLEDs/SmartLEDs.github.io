@@ -19,18 +19,16 @@
 	width: 50%;
 	margin: 0 auto;
 	padding: 1.5%;
-	min-height: 4000px;
 	border-left: 1px solid #333;
 	border-right: 1px solid #333;
 	text-align: center;
+	opacity: 0.9;
 }
 .navigation {
 	text-align: left;
 	font-size: 125%;
 }
-.drdr .items {
-	display: inline-block;
-}
+
 .drdr a {
 	display: inline-block;
 	width: 200px;
@@ -43,7 +41,7 @@
 	margin-right: auto;
 	width: 13em;
 	float: right;
-	margin: 7px;
+	margin: 4px;
 	border: 1;
 }
 .slider {
@@ -63,3 +61,40 @@
 .onestring11 {
 	font-size: 150%;
 }
+@media (max-width:767px){
+	#page-wrapped {
+		position: relative;
+		z-index: 2;
+		background-color: white;
+		width: 70%;
+		margin: 0 auto;
+		padding: 1.5%;
+		border-left: 1px solid #333;
+		border-right: 1px solid #333;
+		text-align: center;
+		opacity: 0.9;
+	}
+}
+@media (min-width:2000px){
+	#page-wrapped {
+		font-size: 170%;
+	}
+}
+@media (min-width:3000px){
+	#page-wrapped {
+		font-size: 200%;
+	}
+}
+@media (max-width:539px){
+	#slider {
+	width: 100%;
+	border: 1;
+	margin: 0 auto;
+	}
+	.obolochka1 {
+		display: block;
+		max-block-size: 10%;
+		margin: auto;
+	}
+}
+

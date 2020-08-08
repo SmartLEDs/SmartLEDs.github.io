@@ -1,0 +1,46 @@
+.blockk {
+	text-align: left;
+	font-size: 125%;
+}
+.blockk_item {
+margin: 0px 0px 20px 0px;
+}
+.blockk_title {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+	padding: 0px 0px 0px 30px;
+	cursor: pointer;
+}
+.blockk_title:before,
+.blockk_title:after {
+	content: '';
+	width: 10px;
+	height: 1px;
+	background-color: #000;
+	position: absolute;
+	top: 8px;
+	transition: all 0.3s ease 0s;
+}
+.blockk_title:before {
+	transform: rotate(40deg);
+	left: 0;
+}
+.blockk_title:after {
+	transform: rotate(-40deg);
+	left: 8px;
+}
+.blockk_title.active:before,
+.blockk_title.active:after {
+background-color: red;
+}
+.blockk_title.active:before {
+	transform: rotate(-40deg);
+}
+.blockk_title.active:after {
+	transform: rotate(40deg);
+}
+.blockk_text {
+display: none;
+padding: 10px 0px 0px 0px;
+}
