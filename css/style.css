@@ -134,6 +134,16 @@
 	list-style: none;
 	margin: 0px 10px;
 }
+@media (max-width:465px){
+	.slider .slick-dots li{
+		margin: 0px 5px;
+	}
+}
+@media (max-width:305px){
+	.slider .slick-dots li{
+		margin: 0px 3px;
+	}
+}
 .slider .slick-dots button{
 	font-size: 0;
 	width: 10px;
@@ -158,6 +168,27 @@
 @media (min-width:1810px){
 	.slider__item img{
 		max-width: 140%;
+	}
+	.slider .slick-dots li{
+		margin: 0px 14px;
+	}
+	.slider .slick-dots button{
+		width: 15px;
+		height: 15px;
+		border-radius: 60%;
+	}
+}
+@media (min-width:3000px){
+	.slider__item img{
+		max-width: 160%;
+	}
+	.slider .slick-dots li{
+		margin: 0px 16px;
+	}
+	.slider .slick-dots button{
+		width: 20px;
+		height: 20px;
+		border-radius: 68%;
 	}
 }
 .slider__item.slick-center{

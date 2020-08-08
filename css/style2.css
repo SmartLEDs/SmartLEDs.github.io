@@ -44,3 +44,42 @@ background-color: red;
 display: none;
 padding: 10px 0px 0px 0px;
 }
+
+
+.blockkk_title {
+	position: relative;
+	padding: 0px 0px 0px 30px;
+	cursor: pointer;
+}
+.blockkk {
+	text-align: left;
+	font-size: 125%;
+}
+.blockkk_title:before,
+.blockkk_title:after {
+	content: '';
+	width: 10px;
+	height: 1px;
+	background-color: #000;
+	position: absolute;
+	top: 8px;
+	transition: all 0.3s ease 0s;
+}
+.blockkk_title:before {
+	transform: rotate(40deg);
+	left: 0;
+}
+.blockkk_title:after {
+	transform: rotate(-40deg);
+	left: 8px;
+}
+.blockkk_title.active:before,
+.blockkk_title.active:after {
+background-color: red;
+}
+.blockkk_title.active:before {
+	transform: rotate(-40deg);
+}
+.blockkk_title.active:after {
+	transform: rotate(40deg);
+}

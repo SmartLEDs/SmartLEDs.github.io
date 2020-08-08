@@ -32,6 +32,7 @@
 .drdr a {
 	display: inline-block;
 	width: 200px;
+
 } 
 .drdr img {
 	max-width: 100%;
@@ -79,11 +80,19 @@
 	#page-wrapped {
 		font-size: 170%;
 	}
+	.lb-data .lb-caption {
+		font-size: 100px;
+
+	  }
 }
 @media (min-width:3000px){
 	#page-wrapped {
 		font-size: 200%;
 	}
+	.lb-data .lb-caption {
+		font-size: 550px;
+
+	  }
 }
 @media (max-width:539px){
 	#slider {
