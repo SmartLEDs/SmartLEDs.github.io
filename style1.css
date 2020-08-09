@@ -31,9 +31,12 @@
 
 .drdr a {
 	display: inline-block;
+}
+.wrapper a {
+	display: inline-block;
 	width: 200px;
 
-} 
+}  
 .drdr img {
 	max-width: 100%;
 }
