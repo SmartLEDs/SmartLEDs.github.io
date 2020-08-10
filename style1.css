@@ -97,6 +97,15 @@
 
 	  }
 }
+
+.input-in {
+	border: 3px solid black;
+	font-size: 135%;
+}
+.simpleee {
+font-size: 135%;
+border: 3px solid black;
+}
 @media (max-width:539px){
 	#slider {
 	width: 100%;
@@ -108,5 +117,25 @@
 		max-block-size: 10%;
 		margin: auto;
 	}
+	.input-in {
+		border: 2px solid black;
+		font-size: 118%;
+	}
+	.simpleee {
+	font-size: 118%;
+	border: 2px solid black;
+	}
+}
+@media (max-width:415px){
+	.input-in {
+		border: 1px solid black;
+		max-width: 100%;
+	}
+	.simpleee {
+	border: 1px solid black;
+	}
 }
 
+.out0 {
+	font-size: 135%;
+}
